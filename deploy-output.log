@@ -1,0 +1,82 @@
+Building application...
+
+> chatify@1.0.0 build
+> next build
+
+  ▲ Next.js 14.2.3
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/5) ...
+   Generating static pages (1/5) 
+   Generating static pages (2/5) 
+   Generating static pages (3/5) 
+ ✓ Generating static pages (5/5)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    44.6 kB         132 kB
+├ ○ /_not-found                          871 B          87.8 kB
+└ ƒ /api/chat                            0 B                0 B
++ First Load JS shared by all            87 kB
+  ├ chunks/23-63a418d3d74a73d8.js        31.5 kB
+  ├ chunks/fd9d1056-81f448b567f73d85.js  53.6 kB
+  └ other shared chunks (total)          1.87 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+Starting Vercel deployment with extended timeout...
+Vercel CLI 50.1.2
+Retrieving project…
+Deploying arcada-agentic-models/claude-project-ef23e7b4-544d-45fd-a004-f20eb6f0b578
+Uploading [--------------------] (0.0B/131KB)
+Uploading [======--------------] (42.1KB/131KB)
+Uploading [===========---------] (74.1KB/131KB)
+Uploading [===============-----] (100.6KB/131KB)
+Uploading [====================] (131.0KB/131KB)
+Still deploying... (5s elapsed)
+Still deploying... (10s elapsed)
+Still deploying... (15s elapsed)
+Still deploying... (20s elapsed)
+Still deploying... (25s elapsed)
+Still deploying... (30s elapsed)
+Still deploying... (35s elapsed)
+Still deploying... (40s elapsed)
+Still deploying... (45s elapsed)
+Still deploying... (50s elapsed)
+Still deploying... (55s elapsed)
+Still deploying... (60s elapsed)
+Still deploying... (65s elapsed)
+Still deploying... (70s elapsed)
+Still deploying... (75s elapsed)
+Still deploying... (80s elapsed)
+Still deploying... (85s elapsed)
+Still deploying... (90s elapsed)
+Still deploying... (95s elapsed)
+Still deploying... (100s elapsed)
+Still deploying... (105s elapsed)
+Still deploying... (110s elapsed)
+Still deploying... (115s elapsed)
+Still deploying... (120s elapsed)
+Still deploying... (125s elapsed)
+Still deploying... (130s elapsed)
+Still deploying... (135s elapsed)
+Still deploying... (140s elapsed)
+Still deploying... (145s elapsed)
+Still deploying... (150s elapsed)
+Still deploying... (155s elapsed)
+Still deploying... (160s elapsed)
+Still deploying... (165s elapsed)
+Still deploying... (170s elapsed)
+Still deploying... (175s elapsed)
+Still deploying... (180s elapsed)
+Deployment taking longer than expected. Process may still be running.
+Checking if deployment completed in background...
+No deployments found yet
